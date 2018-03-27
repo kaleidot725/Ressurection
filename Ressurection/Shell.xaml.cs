@@ -31,6 +31,8 @@ namespace Ressurection
             this.navi = frame.NavigationService;
             this.setting = new SettingPage();
             this.version = new VersionPage();
+
+            this.MenuList.SelectedItem = Setting;
             navi.Navigate(setting);
         }
 
@@ -41,9 +43,8 @@ namespace Ressurection
 
         private void Navigate(object sender, MouseButtonEventArgs e)
         {
-            var textblock = sender as TextBlock;
-            RedrawMenuBackground(textblock.Name);
-
+            var listView = sender as ListView;
+            var textblock = listView.SelectedItem as TextBlock;
             switch (textblock.Name)
             {
                 case "Setting":
@@ -51,24 +52,6 @@ namespace Ressurection
                     break;
                 case "Version":
                     navi.Navigate(this.version);
-                    break;
-            }
-        }
-
-        private static Brush nonselectedColor = new SolidColorBrush(Color.FromRgb(0x23, 0x23, 0x23));
-        private static Brush selectedColor = new SolidColorBrush(Color.FromRgb(0x2c, 0x2c, 0x30));
-        private void RedrawMenuBackground(string textblockName)
-        {
-//          Setting.Background = nonselectedColor;
-//          Version.Background = nonselectedColor;
-
-            switch (textblockName)
-            {
-                case "Setting":
-                    //Setting.Background = selectedColor;
-                    break;
-                case "Version":
-                    //Version.Background = selectedColor;
                     break;
             }
         }

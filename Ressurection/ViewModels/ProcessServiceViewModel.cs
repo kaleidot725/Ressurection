@@ -24,11 +24,11 @@ namespace Ressurection.ViewModels
             set { SetProperty(ref name, value); }
         }
 
-        private bool running;
-        public bool Running
+        private bool onoff;
+        public bool Onoff
         {
-            get { return running; }
-            set { SetProperty(ref running, value); }
+            get { return onoff; }
+            set { SetProperty(ref onoff, value); }
         }
 
         private String upTime;
@@ -52,7 +52,7 @@ namespace Ressurection.ViewModels
 
         public ProcessServiceViewModel(ProcessService processService)
         {
-            Running = processService.IsActive;
+            Onoff = processService.IsActive;
             this.ProcessService = processService;
 
             updateTimer = new System.Threading.Timer(Update, null, 0, 100);
@@ -66,16 +66,16 @@ namespace Ressurection.ViewModels
 
         public void Run()
         {
-            if (this.Running)
+            if (this.Onoff)
             {
-                this.Running = false;
-                try { ProcessService.Stop(); }
-                catch (Exception) { }
+                this.Onoff = true;
+                ProcessService.Start();
             }
             else
             {
-                this.Running = true;
-                ProcessService.Start();
+                this.Onoff = false;
+                try { ProcessService.Stop(); }
+                catch (Exception) { }
             }
         }
 
@@ -84,7 +84,7 @@ namespace Ressurection.ViewModels
             this.Name = ProcessService.Name;
 
             var span = ProcessService.UpTimeSpan;
-            this.UpTime = String.Format("{0:D2}:{1:D2}:{2:D2}:{3:D2}", span.Days, span.Hours, span.Minutes, span.Seconds);
+            this.UpTime = String.Format("{0:D2}d {1:D2}h {2:D2}m {3:D2}s", span.Days, span.Hours, span.Minutes, span.Seconds);
         }
     }
 }

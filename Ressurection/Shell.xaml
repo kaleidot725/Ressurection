@@ -10,25 +10,21 @@
         Background="{DynamicResource MaterialDesignPaper}"
         FontFamily="{DynamicResource MaterialDesignFont}"
        Title="RESSURECTION" Height="422" Width="644">
-    <Window.Resources>
-        <Style TargetType="TextBlock" BasedOn="{StaticResource LargeTextBlock}" x:Key="MenuTextBlock">
-            <Setter Property="Padding" Value="10,5,10,0"/>
-            <Setter Property="Foreground" Value="White"/>
-        </Style>
-    </Window.Resources>
 
     <Grid Background="#232323">
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="125"/>
-            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="8*"/>
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
             <RowDefinition Height="1*"/>
         </Grid.RowDefinitions>
 
         <StackPanel Grid.Column="0" Grid.Row="0">
-            <TextBlock x:Name="Setting" Text="Setting" Style="{StaticResource MenuTextBlock}" PreviewMouseDown="Navigate"/>
-            <TextBlock x:Name="Version" Text="Version" Style="{StaticResource MenuTextBlock}" PreviewMouseDown="Navigate"/>
+            <ListView x:Name="MenuList" PreviewMouseUp="Navigate">
+                <TextBlock x:Name="Setting" Text=" Setting" Background="Transparent"/>
+                <TextBlock x:Name="Version" Text=" Version" Background="Transparent"/>
+            </ListView>
         </StackPanel>
 
         <Frame Grid.Column="1" Grid.Row="0" Background="#2c2c30" NavigationUIVisibility="Hidden" Name="frame" DataContext="{Binding}" Navigated="Navigated"/>

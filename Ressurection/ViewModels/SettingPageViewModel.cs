@@ -13,18 +13,17 @@ namespace Ressurection.ViewModels
     class SettingPageViewModel : BindableBase
     {
         public ProcessManageService ProcessManageService { private get; set; }
-        public DelegateCommand SelectCommand { get; set; }
         public DelegateCommand AddCommand { get; set; }
-        public DelegateCommand<ProcessServiceViewModel> RemoveCommand { get; set; }
+        public DelegateCommand RemoveCommand { get; set; }
 
-        public string path;
-        public string Path
+        private ProcessServiceViewModel selectedServiceViewModel;
+        public ProcessServiceViewModel SelectedServiceViewModel
         {
-            get { return path; }
-            set { SetProperty(ref path, value); }
+            get { return selectedServiceViewModel; }
+            set { SetProperty(ref selectedServiceViewModel, value); }
         }
 
-        public ObservableCollection<ProcessServiceViewModel> processServiceViewModels;
+        private ObservableCollection<ProcessServiceViewModel> processServiceViewModels;
         public ObservableCollection<ProcessServiceViewModel> ProcessServiceViewModels
         {
             get { return processServiceViewModels; }
@@ -33,7 +32,6 @@ namespace Ressurection.ViewModels
 
         public SettingPageViewModel(ProcessManageService ProcessManageService)
         {
-            Path = "";
             this.ProcessManageService = ProcessManageService;
             ProcessServiceViewModels = new ObservableCollection<ProcessServiceViewModel>();
             foreach (ProcessService i in ProcessManageService)
@@ -41,38 +39,40 @@ namespace Ressurection.ViewModels
                 ProcessServiceViewModels.Add(new ProcessServiceViewModel(i));
             }
 
-            SelectCommand = new DelegateCommand(Select);
             AddCommand = new DelegateCommand(Add);
-            RemoveCommand = new DelegateCommand<ProcessServiceViewModel>(Remove);
-        }
-
-        public void Select()
-        {
-            var dialog = new OpenFileDialog();
-            if (dialog.ShowDialog() == true)
-            {
-                Path = dialog.FileName;
-            }
+            RemoveCommand = new DelegateCommand(Remove, CanRemove);
+            RemoveCommand.ObservesProperty(() => SelectedServiceViewModel);
         }
 
         public void Add()
         {
-            if (!File.Exists(this.Path))
-                return;
+            var dialog = new OpenFileDialog();
+            
+            if (dialog.ShowDialog() == true)
+            {
+                var path = dialog.FileName;
 
-            var processService = new ProcessService(new ProcessSetting(this.Path));
-            ProcessManageService.Add(processService);
-            ProcessServiceViewModels.Add(new ProcessServiceViewModel(processService));
+                if (!File.Exists(path))
+                    return;
+
+                var processService = new ProcessService(new ProcessSetting(path));
+                ProcessManageService.Add(processService);
+                ProcessServiceViewModels.Add(new ProcessServiceViewModel(processService));
+            }
         }
 
-        public void Remove(ProcessServiceViewModel vm)
+        public bool CanRemove()
         {
-            ProcessServiceViewModels.Remove(vm);
+            return (SelectedServiceViewModel == null) ? (false) : (true);
+        }
 
-            if (vm.ProcessService.IsActive)
-                vm.ProcessService.Stop();
+        public void Remove()
+        {
+            if (selectedServiceViewModel.ProcessService.IsActive)
+                selectedServiceViewModel.ProcessService.Stop();
 
-            ProcessManageService.Remove(vm.ProcessService);
+            ProcessManageService.Remove(selectedServiceViewModel.ProcessService);
+            ProcessServiceViewModels.Remove(selectedServiceViewModel);
         }
     }
 }

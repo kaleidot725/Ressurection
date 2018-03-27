@@ -2,14 +2,10 @@
 using Newtonsoft.Json;
 using Prism.Mvvm;
 using Ressurection.Models;
-using Ressurection.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
-using System.Diagnostics;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
 
 namespace Ressurection
@@ -18,6 +14,7 @@ namespace Ressurection
     {
         readonly String settingPath = @".\setting.json";
         UnityContainer unityContainer;
+        Shell shell = null;
 
         public NotifyIconWrapper()
         {
@@ -35,34 +32,46 @@ namespace Ressurection
                 {
                     var str = stream.ReadToEnd();
                     settings = JsonConvert.DeserializeObject<List<ProcessSetting>>(str);
-                }
 
-                var pm = unityContainer.Resolve<ProcessManageService>();
-                foreach (var setting in settings)
-                {
-                    try
+                    if (settings != null)
                     {
-                        var p = new ProcessService(setting) as IProcessService;
-                        p.Start();
-                        pm.Add(p);
-                    }
-                    catch (Exception e)
-                    {
-                        Console.WriteLine(e);
+                        var pm = unityContainer.Resolve<ProcessManageService>();
+                        foreach (var setting in settings)
+                        {
+                            try
+                            {
+                                var p = new ProcessService(setting) as IProcessService;
+                                p.Start();
+                                pm.Add(p);
+                            }
+                            catch (Exception e)
+                            {
+                                Console.WriteLine(e);
+                            }
+                        }
                     }
                 }
             }
 
-            this.toolStripMenuItem_Open.Click += this.toolStripMenuItem_Open_Click;
-            this.toolStripMenuItem_Exit.Click += this.toolStripMenuItem_Exit_Click;
+            this.toolStripMenuItem_Open.Click += this.toolStripMenuShowSettingClick;
+            this.toolStripMenuItem_Exit.Click += this.toolStropMenuExitClick;
         }
 
-        private void toolStripMenuItem_Open_Click(object sender, EventArgs e)
+        private void toolStripMenuShowSettingClick(object sender, EventArgs e)
         {
-            this.unityContainer.Resolve<Shell>().Show();
+            if (shell == null)
+            {
+                this.shell = this.unityContainer.Resolve<Shell>();
+                this.shell.Closed += windowClosed;
+                this.shell.Show();
+            }
+            else
+            {
+                this.shell.Activate();
+            }
         }
 
-        private void toolStripMenuItem_Exit_Click(object sender, EventArgs e)
+        private void toolStropMenuExitClick(object sender, EventArgs e)
         {
             var pm = unityContainer.Resolve<ProcessManageService>();
             foreach (IProcessService p in pm)
@@ -93,6 +102,11 @@ namespace Ressurection
             }
 
             Application.Current.Shutdown();
+        }
+
+        private void windowClosed(object sender, EventArgs args)
+        {
+            this.shell = null;
         }
     }
 }

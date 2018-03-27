@@ -49,19 +49,19 @@
             this.toolStripMenuItem_Open,
             this.toolStripMenuItem_Exit});
             this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(101, 48);
+            this.contextMenuStrip1.Size = new System.Drawing.Size(144, 48);
             // 
             // toolStripMenuItem_Open
             // 
             this.toolStripMenuItem_Open.Name = "toolStripMenuItem_Open";
-            this.toolStripMenuItem_Open.Size = new System.Drawing.Size(100, 22);
-            this.toolStripMenuItem_Open.Text = "設定";
+            this.toolStripMenuItem_Open.Size = new System.Drawing.Size(143, 22);
+            this.toolStripMenuItem_Open.Text = "Show Setting";
             // 
             // toolStripMenuItem_Exit
             // 
             this.toolStripMenuItem_Exit.Name = "toolStripMenuItem_Exit";
-            this.toolStripMenuItem_Exit.Size = new System.Drawing.Size(100, 22);
-            this.toolStripMenuItem_Exit.Text = "終了";
+            this.toolStripMenuItem_Exit.Size = new System.Drawing.Size(143, 22);
+            this.toolStripMenuItem_Exit.Text = "Exit";
             this.contextMenuStrip1.ResumeLayout(false);
 
         }
