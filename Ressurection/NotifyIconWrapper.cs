@@ -22,7 +22,7 @@ namespace Ressurection
 
             unityContainer = new UnityContainer();
             unityContainer.RegisterType<Shell>();
-            unityContainer.RegisterType<ProcessManageService>(new ContainerControlledLifetimeManager());
+            unityContainer.RegisterType<ProcessServiceList>(new ContainerControlledLifetimeManager());
             ViewModelLocationProvider.SetDefaultViewModelFactory(x => unityContainer.Resolve(x));
 
             var settings = new List<ProcessSetting>();
@@ -35,7 +35,7 @@ namespace Ressurection
 
                     if (settings != null)
                     {
-                        var pm = unityContainer.Resolve<ProcessManageService>();
+                        var pm = unityContainer.Resolve<ProcessServiceList>();
                         foreach (var setting in settings)
                         {
                             try
@@ -73,7 +73,7 @@ namespace Ressurection
 
         private void toolStropMenuExitClick(object sender, EventArgs e)
         {
-            var pm = unityContainer.Resolve<ProcessManageService>();
+            var pm = unityContainer.Resolve<ProcessServiceList>();
             foreach (IProcessService p in pm)
             {
                 if (p.IsActive)

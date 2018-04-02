@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Ressurection.Models
 {
-    interface IProcessManageService : IEnumerable
+    interface IProcessServiceList : IEnumerable
     {
         void Add(IProcessService processService);
         void Remove(IProcessService processService);

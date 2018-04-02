@@ -9,9 +9,16 @@ namespace Ressurection.ViewModels
 {
     class VersionPageViewModel : BindableBase
     {
+        private String versionString;
+        public String VersionString
+        {
+            get { return versionString; }
+            set { SetProperty(ref versionString, value); }
+        }
+
         public VersionPageViewModel()
         {
-            Console.WriteLine("VersionPageViewModel Start");
+            VersionString = Ressurection.Models.Version.Infomation;
         }
     }
 }

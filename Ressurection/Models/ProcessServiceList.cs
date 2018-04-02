@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Ressurection.Models
 {
-    class ProcessManageService : IProcessManageService
+    class ProcessServiceList : IProcessServiceList
     {
         private List<IProcessService> list = new List<IProcessService>();
         

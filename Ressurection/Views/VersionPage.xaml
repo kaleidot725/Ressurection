@@ -12,14 +12,50 @@
       Title="VersionPage">
 
     <Page.Resources>
-        <Style TargetType="TextBlock" BasedOn="{StaticResource MaterialDesignSubheadingTextBlock}" x:Key="MenuTextBlock">
+        <Style TargetType="TextBlock" BasedOn="{StaticResource MiddleTextBlock}" x:Key="CustomMiddleTextBlock">
+            <Setter Property="Padding" Value="10,0,10,0"/>
+            <Setter Property="Foreground" Value="White"/>
+        </Style>
+        <Style TargetType="TextBlock" BasedOn="{StaticResource SmallTextBlock}" x:Key="CustomTextBlock">
             <Setter Property="Padding" Value="10,0,10,0"/>
             <Setter Property="Foreground" Value="White"/>
         </Style>
     </Page.Resources>
     <Grid >
         <StackPanel>
-            <TextBlock x:Name="Setting" Text="Ressurection Version 0.0.1" Style="{DynamicResource MenuTextBlock}"/>
+            <TextBlock Text="Ressurection Version 0.0.1" Style="{DynamicResource CustomMiddleTextBlock}"/>
+            <TextBlock Text="" Style="{DynamicResource CustomTextBlock}"/>
+            <TextBlock>
+                <TextBlock Text="Developer     " Style="{DynamicResource CustomTextBlock}"/>
+                <Hyperlink NavigateUri="https://github.com/kaleidot725" RequestNavigate="Hyperlink_Click">Kaleidot725(Yusuke Katsuragawa)</Hyperlink>
+            </TextBlock>
+            <TextBlock>
+                <TextBlock Text="Source Code" Style="{DynamicResource CustomTextBlock}"/>
+                <Hyperlink NavigateUri="https://github.com/kaleidot725/ressurection" RequestNavigate="Hyperlink_Click">Kaleidot725/ressurection</Hyperlink>
+            </TextBlock>
+            <TextBlock Text="" Style="{DynamicResource CustomTextBlock}"/>
+            <TextBlock Text="Licenses" Style="{DynamicResource CustomMiddleTextBlock}"/>
+            <TextBlock Text=""/>
+            <TextBlock Text="Prism" Style="{DynamicResource CustomTextBlock}"/>
+            <TextBlock Text="The MIT License (MIT)" Style="{DynamicResource CustomTextBlock}"/>
+            <TextBlock Text="Copyright (c) .NET Foundation" Style="{DynamicResource CustomTextBlock}"/>
+            <TextBlock Text=""/>
+            <TextBlock Text="Unity" Style="{DynamicResource CustomTextBlock}"/>
+            <TextBlock Text="Apache License Version 2.0" Style="{DynamicResource CustomTextBlock}"/>
+            <TextBlock Text="http://www.apache.org/licenses/" Style="{DynamicResource CustomTextBlock}"/>
+            <TextBlock Text=""/>
+            <TextBlock Text="Rx.NET" Style="{DynamicResource CustomTextBlock}"/>
+            <TextBlock Text="Apache License Version 2.0" Style="{DynamicResource CustomTextBlock}"/>
+            <TextBlock Text="http://www.apache.org/licenses/LICENSE-2.0" Style="{DynamicResource CustomTextBlock}"/>
+            <TextBlock Text="Copyright (c) .NET Foundation and Contributors" Style="{DynamicResource CustomTextBlock}"/>
+            <TextBlock Text=""/>
+            <TextBlock Text="ReactiveProperty" Style="{DynamicResource CustomTextBlock}"/>
+            <TextBlock Text="The MIT License (MIT)" Style="{DynamicResource CustomTextBlock}"/>
+            <TextBlock Text="Copyright (c) 2018 neuecc, xin9le, okazuki" Style="{DynamicResource CustomTextBlock}"/>
+            <TextBlock Text=""/>
+            <TextBlock Text="Material Design In XAML Toolkit" Style="{DynamicResource CustomTextBlock}"/>
+            <TextBlock Text="The MIT License (MIT)" Style="{DynamicResource CustomTextBlock}"/>
+            <TextBlock Text="Copyright (c) James Willock,  Mulholland Software and Contributors" Style="{DynamicResource CustomTextBlock}"/>
         </StackPanel>
     </Grid>
 </Page>

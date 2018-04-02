@@ -12,7 +12,7 @@ namespace Ressurection.ViewModels
 {
     class SettingPageViewModel : BindableBase
     {
-        public ProcessManageService ProcessManageService { private get; set; }
+        public ProcessServiceList ProcessManageService { private get; set; }
         public DelegateCommand AddCommand { get; set; }
         public DelegateCommand RemoveCommand { get; set; }
 
@@ -30,7 +30,7 @@ namespace Ressurection.ViewModels
             set { SetProperty(ref processServiceViewModels, value); }
         }
 
-        public SettingPageViewModel(ProcessManageService ProcessManageService)
+        public SettingPageViewModel(ProcessServiceList ProcessManageService)
         {
             this.ProcessManageService = ProcessManageService;
             ProcessServiceViewModels = new ObservableCollection<ProcessServiceViewModel>();
@@ -46,19 +46,23 @@ namespace Ressurection.ViewModels
 
         public void Add()
         {
-            var dialog = new OpenFileDialog();
-            
-            if (dialog.ShowDialog() == true)
+            try
             {
-                var path = dialog.FileName;
+                var dialog = new OpenFileDialog();
 
-                if (!File.Exists(path))
-                    return;
+                if (dialog.ShowDialog() == true)
+                {
+                    var path = dialog.FileName;
 
-                var processService = new ProcessService(new ProcessSetting(path));
-                ProcessManageService.Add(processService);
-                ProcessServiceViewModels.Add(new ProcessServiceViewModel(processService));
+                    if (!File.Exists(path))
+                        return;
+
+                    var processService = new ProcessService(new ProcessSetting(path));
+                    ProcessManageService.Add(processService);
+                    ProcessServiceViewModels.Add(new ProcessServiceViewModel(processService));
+                }
             }
+            catch (Exception) { }
         }
 
         public bool CanRemove()
@@ -68,11 +72,15 @@ namespace Ressurection.ViewModels
 
         public void Remove()
         {
-            if (selectedServiceViewModel.ProcessService.IsActive)
-                selectedServiceViewModel.ProcessService.Stop();
+            try
+            {
+                if (selectedServiceViewModel.ProcessService.IsActive)
+                    selectedServiceViewModel.ProcessService.Stop();
 
-            ProcessManageService.Remove(selectedServiceViewModel.ProcessService);
-            ProcessServiceViewModels.Remove(selectedServiceViewModel);
+                ProcessManageService.Remove(selectedServiceViewModel.ProcessService);
+                ProcessServiceViewModels.Remove(selectedServiceViewModel);
+            }
+            catch (Exception) { }
         }
     }
 }
