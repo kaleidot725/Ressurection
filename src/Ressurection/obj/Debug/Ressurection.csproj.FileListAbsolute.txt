@@ -1,0 +1,173 @@
+C:\Users\K-Y\documents\visual studio 2017\Projects\Ressurection\Ressurection\bin\Debug\Ressurection.exe.config
+C:\Users\K-Y\documents\visual studio 2017\Projects\Ressurection\Ressurection\bin\Debug\Ressurection.exe
+C:\Users\K-Y\documents\visual studio 2017\Projects\Ressurection\Ressurection\bin\Debug\Ressurection.pdb
+C:\Users\K-Y\documents\visual studio 2017\Projects\Ressurection\Ressurection\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\K-Y\documents\visual studio 2017\Projects\Ressurection\Ressurection\bin\Debug\Prism.dll
+C:\Users\K-Y\documents\visual studio 2017\Projects\Ressurection\Ressurection\bin\Debug\Prism.Wpf.dll
+C:\Users\K-Y\documents\visual studio 2017\Projects\Ressurection\Ressurection\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\K-Y\documents\visual studio 2017\Projects\Ressurection\Ressurection\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\K-Y\documents\visual studio 2017\Projects\Ressurection\Ressurection\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\K-Y\documents\visual studio 2017\Projects\Ressurection\Ressurection\bin\Debug\Prism.xml
+C:\Users\K-Y\documents\visual studio 2017\Projects\Ressurection\Ressurection\bin\Debug\Prism.Wpf.xml
+C:\Users\K-Y\documents\visual studio 2017\Projects\Ressurection\Ressurection\obj\Debug\Views\SettingPage.baml
+C:\Users\K-Y\documents\visual studio 2017\Projects\Ressurection\Ressurection\obj\Debug\Views\VersionPage.baml
+C:\Users\K-Y\documents\visual studio 2017\Projects\Ressurection\Ressurection\obj\Debug\Views\SettingPage.g.cs
+C:\Users\K-Y\documents\visual studio 2017\Projects\Ressurection\Ressurection\obj\Debug\Views\VersionPage.g.cs
+C:\Users\K-Y\documents\visual studio 2017\Projects\Ressurection\Ressurection\obj\Debug\App.g.cs
+C:\Users\K-Y\documents\visual studio 2017\Projects\Ressurection\Ressurection\obj\Debug\Ressurection_MarkupCompile.cache
+C:\Users\K-Y\documents\visual studio 2017\Projects\Ressurection\Ressurection\obj\Debug\Ressurection_MarkupCompile.lref
+C:\Users\K-Y\documents\visual studio 2017\Projects\Ressurection\Ressurection\obj\Debug\App.baml
+C:\Users\K-Y\documents\visual studio 2017\Projects\Ressurection\Ressurection\obj\Debug\Ressurection.g.resources
+C:\Users\K-Y\documents\visual studio 2017\Projects\Ressurection\Ressurection\obj\Debug\Ressurection.Properties.Resources.resources
+C:\Users\K-Y\documents\visual studio 2017\Projects\Ressurection\Ressurection\obj\Debug\Ressurection.csproj.GenerateResource.Cache
+C:\Users\K-Y\documents\visual studio 2017\Projects\Ressurection\Ressurection\obj\Debug\Ressurection.exe
+C:\Users\K-Y\documents\visual studio 2017\Projects\Ressurection\Ressurection\obj\Debug\Ressurection.pdb
+C:\Users\K-Y\Documents\Visual Studio 2017\Projects\Ressurection\Ressurection\obj\Debug\Ressurection.NotifyIconWrapper.resources
+C:\Users\K-Y\Documents\Visual Studio 2017\Projects\Ressurection\Ressurection\obj\Debug\Shell.g.cs
+C:\Users\K-Y\Documents\Visual Studio 2017\Projects\Ressurection\Ressurection\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+C:\Users\K-Y\Documents\Visual Studio 2017\Projects\Ressurection\Ressurection\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\K-Y\Documents\Visual Studio 2017\Projects\Ressurection\Ressurection\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.dll
+C:\Users\K-Y\Documents\Visual Studio 2017\Projects\Ressurection\Ressurection\bin\Debug\Prism.Unity.Wpf.dll
+C:\Users\K-Y\Documents\Visual Studio 2017\Projects\Ressurection\Ressurection\bin\Debug\Microsoft.Practices.Unity.xml
+C:\Users\K-Y\Documents\Visual Studio 2017\Projects\Ressurection\Ressurection\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+C:\Users\K-Y\Documents\Visual Studio 2017\Projects\Ressurection\Ressurection\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.xml
+C:\Users\K-Y\Documents\Visual Studio 2017\Projects\Ressurection\Ressurection\bin\Debug\Prism.Unity.Wpf.xml
+C:\Users\K-Y\Documents\Visual Studio 2017\Projects\Ressurection\Ressurection\obj\Debug\Shell.baml
+C:\Users\K-Y\Documents\Visual Studio 2017\Projects\Ressurection\Ressurection\bin\Debug\ReactiveProperty.dll
+C:\Users\K-Y\Documents\Visual Studio 2017\Projects\Ressurection\Ressurection\bin\Debug\ReactiveProperty.NET46.dll
+C:\Users\K-Y\Documents\Visual Studio 2017\Projects\Ressurection\Ressurection\bin\Debug\System.Reactive.Core.dll
+C:\Users\K-Y\Documents\Visual Studio 2017\Projects\Ressurection\Ressurection\bin\Debug\System.Reactive.Interfaces.dll
+C:\Users\K-Y\Documents\Visual Studio 2017\Projects\Ressurection\Ressurection\bin\Debug\System.Reactive.Linq.dll
+C:\Users\K-Y\Documents\Visual Studio 2017\Projects\Ressurection\Ressurection\bin\Debug\System.Reactive.PlatformServices.dll
+C:\Users\K-Y\Documents\Visual Studio 2017\Projects\Ressurection\Ressurection\bin\Debug\System.Reactive.Windows.Threading.dll
+C:\Users\K-Y\Documents\Visual Studio 2017\Projects\Ressurection\Ressurection\bin\Debug\ReactiveProperty.pdb
+C:\Users\K-Y\Documents\Visual Studio 2017\Projects\Ressurection\Ressurection\bin\Debug\ReactiveProperty.xml
+C:\Users\K-Y\Documents\Visual Studio 2017\Projects\Ressurection\Ressurection\bin\Debug\ReactiveProperty.NET46.pdb
+C:\Users\K-Y\Documents\Visual Studio 2017\Projects\Ressurection\Ressurection\bin\Debug\ReactiveProperty.NET46.xml
+C:\Users\K-Y\Documents\Visual Studio 2017\Projects\Ressurection\Ressurection\bin\Debug\System.Reactive.Core.xml
+C:\Users\K-Y\Documents\Visual Studio 2017\Projects\Ressurection\Ressurection\bin\Debug\System.Reactive.Interfaces.xml
+C:\Users\K-Y\Documents\Visual Studio 2017\Projects\Ressurection\Ressurection\bin\Debug\System.Reactive.Linq.xml
+C:\Users\K-Y\Documents\Visual Studio 2017\Projects\Ressurection\Ressurection\bin\Debug\System.Reactive.PlatformServices.xml
+C:\Users\K-Y\Documents\Visual Studio 2017\Projects\Ressurection\Ressurection\bin\Debug\System.Reactive.Windows.Threading.xml
+C:\Users\K-Y\Documents\Visual Studio 2017\Projects\Ressurection\Ressurection\bin\Debug\Newtonsoft.Json.dll
+C:\Users\K-Y\Documents\Visual Studio 2017\Projects\Ressurection\Ressurection\bin\Debug\Newtonsoft.Json.xml
+C:\Users\K-Y\Documents\Visual Studio 2017\Projects\Ressurection\Ressurection\bin\Debug\MaterialDesignColors.dll
+C:\Users\K-Y\Documents\Visual Studio 2017\Projects\Ressurection\Ressurection\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\K-Y\Documents\Visual Studio 2017\Projects\Ressurection\Ressurection\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\K-Y\Documents\Visual Studio 2017\Projects\Ressurection\Ressurection\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\K-Y\Documents\Git\ressurection\Ressurection\bin\Debug\Ressurection.exe.config
+C:\Users\K-Y\Documents\Git\ressurection\Ressurection\bin\Debug\Ressurection.exe
+C:\Users\K-Y\Documents\Git\ressurection\Ressurection\bin\Debug\Ressurection.pdb
+C:\Users\K-Y\Documents\Git\ressurection\Ressurection\bin\Debug\MaterialDesignColors.dll
+C:\Users\K-Y\Documents\Git\ressurection\Ressurection\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\K-Y\Documents\Git\ressurection\Ressurection\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\K-Y\Documents\Git\ressurection\Ressurection\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+C:\Users\K-Y\Documents\Git\ressurection\Ressurection\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\K-Y\Documents\Git\ressurection\Ressurection\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.dll
+C:\Users\K-Y\Documents\Git\ressurection\Ressurection\bin\Debug\Newtonsoft.Json.dll
+C:\Users\K-Y\Documents\Git\ressurection\Ressurection\bin\Debug\Prism.dll
+C:\Users\K-Y\Documents\Git\ressurection\Ressurection\bin\Debug\Prism.Unity.Wpf.dll
+C:\Users\K-Y\Documents\Git\ressurection\Ressurection\bin\Debug\Prism.Wpf.dll
+C:\Users\K-Y\Documents\Git\ressurection\Ressurection\bin\Debug\ReactiveProperty.dll
+C:\Users\K-Y\Documents\Git\ressurection\Ressurection\bin\Debug\ReactiveProperty.NET46.dll
+C:\Users\K-Y\Documents\Git\ressurection\Ressurection\bin\Debug\System.Reactive.Core.dll
+C:\Users\K-Y\Documents\Git\ressurection\Ressurection\bin\Debug\System.Reactive.Interfaces.dll
+C:\Users\K-Y\Documents\Git\ressurection\Ressurection\bin\Debug\System.Reactive.Linq.dll
+C:\Users\K-Y\Documents\Git\ressurection\Ressurection\bin\Debug\System.Reactive.PlatformServices.dll
+C:\Users\K-Y\Documents\Git\ressurection\Ressurection\bin\Debug\System.Reactive.Windows.Threading.dll
+C:\Users\K-Y\Documents\Git\ressurection\Ressurection\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\K-Y\Documents\Git\ressurection\Ressurection\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\K-Y\Documents\Git\ressurection\Ressurection\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\K-Y\Documents\Git\ressurection\Ressurection\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\K-Y\Documents\Git\ressurection\Ressurection\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\K-Y\Documents\Git\ressurection\Ressurection\bin\Debug\Microsoft.Practices.Unity.xml
+C:\Users\K-Y\Documents\Git\ressurection\Ressurection\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+C:\Users\K-Y\Documents\Git\ressurection\Ressurection\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.xml
+C:\Users\K-Y\Documents\Git\ressurection\Ressurection\bin\Debug\Newtonsoft.Json.xml
+C:\Users\K-Y\Documents\Git\ressurection\Ressurection\bin\Debug\Prism.xml
+C:\Users\K-Y\Documents\Git\ressurection\Ressurection\bin\Debug\Prism.Unity.Wpf.xml
+C:\Users\K-Y\Documents\Git\ressurection\Ressurection\bin\Debug\Prism.Wpf.xml
+C:\Users\K-Y\Documents\Git\ressurection\Ressurection\bin\Debug\ReactiveProperty.pdb
+C:\Users\K-Y\Documents\Git\ressurection\Ressurection\bin\Debug\ReactiveProperty.xml
+C:\Users\K-Y\Documents\Git\ressurection\Ressurection\bin\Debug\ReactiveProperty.NET46.pdb
+C:\Users\K-Y\Documents\Git\ressurection\Ressurection\bin\Debug\ReactiveProperty.NET46.xml
+C:\Users\K-Y\Documents\Git\ressurection\Ressurection\bin\Debug\System.Reactive.Core.xml
+C:\Users\K-Y\Documents\Git\ressurection\Ressurection\bin\Debug\System.Reactive.Interfaces.xml
+C:\Users\K-Y\Documents\Git\ressurection\Ressurection\bin\Debug\System.Reactive.Linq.xml
+C:\Users\K-Y\Documents\Git\ressurection\Ressurection\bin\Debug\System.Reactive.PlatformServices.xml
+C:\Users\K-Y\Documents\Git\ressurection\Ressurection\bin\Debug\System.Reactive.Windows.Threading.xml
+C:\Users\K-Y\Documents\Git\ressurection\Ressurection\obj\Debug\Ressurection.csprojResolveAssemblyReference.cache
+C:\Users\K-Y\Documents\Git\ressurection\Ressurection\obj\Debug\Views\SettingPage.baml
+C:\Users\K-Y\Documents\Git\ressurection\Ressurection\obj\Debug\Views\VersionPage.baml
+C:\Users\K-Y\Documents\Git\ressurection\Ressurection\obj\Debug\Shell.g.cs
+C:\Users\K-Y\Documents\Git\ressurection\Ressurection\obj\Debug\Views\SettingPage.g.cs
+C:\Users\K-Y\Documents\Git\ressurection\Ressurection\obj\Debug\Views\VersionPage.g.cs
+C:\Users\K-Y\Documents\Git\ressurection\Ressurection\obj\Debug\App.g.cs
+C:\Users\K-Y\Documents\Git\ressurection\Ressurection\obj\Debug\Ressurection_MarkupCompile.cache
+C:\Users\K-Y\Documents\Git\ressurection\Ressurection\obj\Debug\Ressurection_MarkupCompile.lref
+C:\Users\K-Y\Documents\Git\ressurection\Ressurection\obj\Debug\App.baml
+C:\Users\K-Y\Documents\Git\ressurection\Ressurection\obj\Debug\Shell.baml
+C:\Users\K-Y\Documents\Git\ressurection\Ressurection\obj\Debug\Ressurection.g.resources
+C:\Users\K-Y\Documents\Git\ressurection\Ressurection\obj\Debug\Ressurection.NotifyIconWrapper.resources
+C:\Users\K-Y\Documents\Git\ressurection\Ressurection\obj\Debug\Ressurection.Properties.Resources.resources
+C:\Users\K-Y\Documents\Git\ressurection\Ressurection\obj\Debug\Ressurection.csproj.GenerateResource.Cache
+C:\Users\K-Y\Documents\Git\ressurection\Ressurection\obj\Debug\Ressurection.exe
+C:\Users\K-Y\Documents\Git\ressurection\Ressurection\obj\Debug\Ressurection.pdb
+C:\Users\K-Y\Documents\Git\ressurection\src\Ressurection\bin\Debug\Ressurection.exe.config
+C:\Users\K-Y\Documents\Git\ressurection\src\Ressurection\bin\Debug\Ressurection.exe
+C:\Users\K-Y\Documents\Git\ressurection\src\Ressurection\bin\Debug\Ressurection.pdb
+C:\Users\K-Y\Documents\Git\ressurection\src\Ressurection\bin\Debug\MaterialDesignColors.dll
+C:\Users\K-Y\Documents\Git\ressurection\src\Ressurection\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\K-Y\Documents\Git\ressurection\src\Ressurection\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\K-Y\Documents\Git\ressurection\src\Ressurection\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+C:\Users\K-Y\Documents\Git\ressurection\src\Ressurection\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\K-Y\Documents\Git\ressurection\src\Ressurection\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.dll
+C:\Users\K-Y\Documents\Git\ressurection\src\Ressurection\bin\Debug\Newtonsoft.Json.dll
+C:\Users\K-Y\Documents\Git\ressurection\src\Ressurection\bin\Debug\Prism.dll
+C:\Users\K-Y\Documents\Git\ressurection\src\Ressurection\bin\Debug\Prism.Unity.Wpf.dll
+C:\Users\K-Y\Documents\Git\ressurection\src\Ressurection\bin\Debug\Prism.Wpf.dll
+C:\Users\K-Y\Documents\Git\ressurection\src\Ressurection\bin\Debug\ReactiveProperty.dll
+C:\Users\K-Y\Documents\Git\ressurection\src\Ressurection\bin\Debug\ReactiveProperty.NET46.dll
+C:\Users\K-Y\Documents\Git\ressurection\src\Ressurection\bin\Debug\System.Reactive.Core.dll
+C:\Users\K-Y\Documents\Git\ressurection\src\Ressurection\bin\Debug\System.Reactive.Interfaces.dll
+C:\Users\K-Y\Documents\Git\ressurection\src\Ressurection\bin\Debug\System.Reactive.Linq.dll
+C:\Users\K-Y\Documents\Git\ressurection\src\Ressurection\bin\Debug\System.Reactive.PlatformServices.dll
+C:\Users\K-Y\Documents\Git\ressurection\src\Ressurection\bin\Debug\System.Reactive.Windows.Threading.dll
+C:\Users\K-Y\Documents\Git\ressurection\src\Ressurection\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\K-Y\Documents\Git\ressurection\src\Ressurection\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\K-Y\Documents\Git\ressurection\src\Ressurection\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\K-Y\Documents\Git\ressurection\src\Ressurection\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\K-Y\Documents\Git\ressurection\src\Ressurection\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\K-Y\Documents\Git\ressurection\src\Ressurection\bin\Debug\Microsoft.Practices.Unity.xml
+C:\Users\K-Y\Documents\Git\ressurection\src\Ressurection\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+C:\Users\K-Y\Documents\Git\ressurection\src\Ressurection\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.xml
+C:\Users\K-Y\Documents\Git\ressurection\src\Ressurection\bin\Debug\Newtonsoft.Json.xml
+C:\Users\K-Y\Documents\Git\ressurection\src\Ressurection\bin\Debug\Prism.xml
+C:\Users\K-Y\Documents\Git\ressurection\src\Ressurection\bin\Debug\Prism.Unity.Wpf.xml
+C:\Users\K-Y\Documents\Git\ressurection\src\Ressurection\bin\Debug\Prism.Wpf.xml
+C:\Users\K-Y\Documents\Git\ressurection\src\Ressurection\bin\Debug\ReactiveProperty.pdb
+C:\Users\K-Y\Documents\Git\ressurection\src\Ressurection\bin\Debug\ReactiveProperty.xml
+C:\Users\K-Y\Documents\Git\ressurection\src\Ressurection\bin\Debug\ReactiveProperty.NET46.pdb
+C:\Users\K-Y\Documents\Git\ressurection\src\Ressurection\bin\Debug\ReactiveProperty.NET46.xml
+C:\Users\K-Y\Documents\Git\ressurection\src\Ressurection\bin\Debug\System.Reactive.Core.xml
+C:\Users\K-Y\Documents\Git\ressurection\src\Ressurection\bin\Debug\System.Reactive.Interfaces.xml
+C:\Users\K-Y\Documents\Git\ressurection\src\Ressurection\bin\Debug\System.Reactive.Linq.xml
+C:\Users\K-Y\Documents\Git\ressurection\src\Ressurection\bin\Debug\System.Reactive.PlatformServices.xml
+C:\Users\K-Y\Documents\Git\ressurection\src\Ressurection\bin\Debug\System.Reactive.Windows.Threading.xml
+C:\Users\K-Y\Documents\Git\ressurection\src\Ressurection\obj\Debug\Ressurection.csprojResolveAssemblyReference.cache
+C:\Users\K-Y\Documents\Git\ressurection\src\Ressurection\obj\Debug\Views\SettingPage.baml
+C:\Users\K-Y\Documents\Git\ressurection\src\Ressurection\obj\Debug\Views\VersionPage.baml
+C:\Users\K-Y\Documents\Git\ressurection\src\Ressurection\obj\Debug\Shell.g.cs
+C:\Users\K-Y\Documents\Git\ressurection\src\Ressurection\obj\Debug\Views\SettingPage.g.cs
+C:\Users\K-Y\Documents\Git\ressurection\src\Ressurection\obj\Debug\Views\VersionPage.g.cs
+C:\Users\K-Y\Documents\Git\ressurection\src\Ressurection\obj\Debug\App.g.cs
+C:\Users\K-Y\Documents\Git\ressurection\src\Ressurection\obj\Debug\Ressurection_MarkupCompile.cache
+C:\Users\K-Y\Documents\Git\ressurection\src\Ressurection\obj\Debug\Ressurection_MarkupCompile.lref
+C:\Users\K-Y\Documents\Git\ressurection\src\Ressurection\obj\Debug\App.baml
+C:\Users\K-Y\Documents\Git\ressurection\src\Ressurection\obj\Debug\Shell.baml
+C:\Users\K-Y\Documents\Git\ressurection\src\Ressurection\obj\Debug\Ressurection.g.resources
+C:\Users\K-Y\Documents\Git\ressurection\src\Ressurection\obj\Debug\Ressurection.NotifyIconWrapper.resources
+C:\Users\K-Y\Documents\Git\ressurection\src\Ressurection\obj\Debug\Ressurection.Properties.Resources.resources
+C:\Users\K-Y\Documents\Git\ressurection\src\Ressurection\obj\Debug\Ressurection.csproj.GenerateResource.Cache
+C:\Users\K-Y\Documents\Git\ressurection\src\Ressurection\obj\Debug\Ressurection.exe
+C:\Users\K-Y\Documents\Git\ressurection\src\Ressurection\obj\Debug\Ressurection.pdb
